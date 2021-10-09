@@ -27,8 +27,8 @@ button {
          amount: 100,
          description: 'Test Description',
          method: 'upi',
-         contact: +917019284852,
-         email: 'h22tswift@gmail.com'
+         contact: +918050627981,
+         email: 'vjanardhan675@gmail.com'
      };
  document.querySelector('#trigger-payment').addEventListener('click', (e) => {
 
@@ -37,7 +37,7 @@ button {
            rzp.createPayment(paymentData, {gpay: true})
      }).catch(() => {
           alert('GPay Unavailable');
-          paymentData.vpa = 'h22tswift@okhdfcbank';
+          paymentData.vpa = 'vjanardhan675@okhdfcbank';
           rzp.createPayment(paymentData);
 })
   e.preventDefault(); 
